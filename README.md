@@ -6,7 +6,7 @@ Este script em **Batch (`.bat`)** foi criado para facilitar a ativação do Wind
 
 1. **Baixe o ficheiro neste repositório:** `activador-windows11/src/`
 2. **Execute o script como Administrador:**
-   - Clique com o botão direito no arquivo `activador_windows11.bat`
+   - Clique com o botão direito no arquivo `activador-windows-11-chocoflakez.bat`
    - Selecione **Executar como administrador**
    
 3. O script tentará ativar o Windows, testando servidores KMS diferentes.
@@ -18,7 +18,7 @@ Este script em **Batch (`.bat`)** foi criado para facilitar a ativação do Wind
 ```
 activador-windows11/
 │── src/
-│   ├── activador_windows11.bat
+│   ├── activador-windows-11-chocoflakez.bat
 │── README.md
 ```
 
