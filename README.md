@@ -4,23 +4,16 @@ Este script em **Batch (`.bat`)** foi criado para facilitar a ativação do Wind
 
 ## 🚀 Como Usar
 
-1. **Baixe ou clone este repositório:**
-   ```sh
-   git clone https://github.com/seu-usuario/activador-windows11.git
-   ```
-2. **Navegue até a pasta `src/` onde o script está localizado:**
-   ```sh
-   cd activador-windows11/src
-   ```
-3. **Execute o script como Administrador:**
+1. **Baixe o ficheiro neste repositório:** `activador-windows11/src/`
+2. **Execute o script como Administrador:**
    - Clique com o botão direito no arquivo `activador_windows11.bat`
    - Selecione **Executar como administrador**
    
-4. O script tentará ativar o Windows, testando servidores KMS diferentes.
+3. O script tentará ativar o Windows, testando servidores KMS diferentes.
 
-5. Se a ativação for bem-sucedida, será perguntado se deseja reiniciar o computador.
+4. Se a ativação for bem-sucedida, será perguntado se deseja reiniciar o computador.
 
-## 💁️ Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
 ```
 activador-windows11/
@@ -49,11 +42,11 @@ activador-windows11/
 - **Não é garantido que funcione permanentemente, pois os servidores KMS podem ficar offline.**
 - **Se precisa de uma ativação oficial, recomenda-se adquirir uma chave válida diretamente da Microsoft.**
 
-## 📝 Licença
+## 📜 Licença
 
 Este projeto está disponível sob a licença MIT. Sinta-se à vontade para modificar e utilizar, mas **use com responsabilidade.**
 
 ---
 ✉️ **Autor:** chocoflakez  
-🗓️ **Última atualização:** [Fevereiro 2025]
+📅 **Última atualização:** Fevereiro 2025
 
