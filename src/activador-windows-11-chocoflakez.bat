@@ -26,19 +26,19 @@ set KMS_Servers[5]=kms.shuax.com
 set KMS_Servers[6]=kms8.msguides.com
 
 :server
-set KMS_Sev=!KMS_Servers[%i%]!
-if "!KMS_Sev!"=="" goto fail
+set KMS_Serv=!KMS_Servers[%i%]!
+if "!KMS_Serv!"=="" goto fail
 
-echo Tentando ativação com o servidor: !KMS_Sev!
-cscript //nologo c:\windows\system32\slmgr.vbs /skms !KMS_Sev!
-cscript //nologo c:\windows\system32\slmgr.vbs /ato | find /i "successfully activated" >nul && (
+echo Tentando ativação com o servidor: !KMS_Serv!
+cscript //nologo c:\windows\system32\slmgr.vbs /skms !KMS_Serv!
+cscript //nologo c:\windows\system32\slmgr.vbs /ato | find /i "successfully" >nul && (
     echo.
     echo ****************************************** 
-    echo  [✔] Windows 11 ativado com sucesso no servidor: !KMS_Sev!
+    echo  [✔] Windows 11 ativado com sucesso no servidor: !KMS_Serv!
     echo ****************************************** 
     echo.
     choice /n /c YN /m "Deseja reiniciar o PC agora [Y,N]? "
-    if %errorlevel%==1 shutdown.exe /r /t 00
+    if %errorlevel% equ 1 shutdown.exe /r /t 0
     exit
 ) || (
     echo [✖] Falha ao ativar neste servidor. Tentando outro...
