@@ -15,7 +15,7 @@ O comportamento final depende da versão do script utilizada: poderá apresentar
 
 ## 📖 Alternativa manual — opcional
 
-Se o Batch não funcionar, consulta o ficheiro **[`manual-activation.txt`](manual-activation.txt)**, que contém o passo a passo opcional para a tentativa de ativação manual.
+Se o Batch não funcionar, consulta o ficheiro **[`manual-activation.md`](manual-activation.md)**, que contém o passo a passo opcional para a tentativa de ativação manual.
 
 A alternativa manual não dispensa uma licença válida nem garante que a ativação seja bem-sucedida.
 
